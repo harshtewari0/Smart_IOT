@@ -16,3 +16,4 @@ The Climate Control System monitors and controls the temperature and humidity of
 - Sensor data will be received via MQTT and written to a CSV file.
 - PDDL files will be generated based on the sensor data.
 - The planner will determine the actions to be taken, such as turning on/off a fan or humidifier, and these actions will be published to an MQTT topic.
+- the planner also control the speed of heater based on difference between the set value and actual temperature value
