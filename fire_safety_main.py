@@ -12,11 +12,11 @@ from smtplib import SMTP_SSL as SMTP       # this invokes the secure SMTP protoc
 from email.mime.text import MIMEText
 
 SMTPserver = 'smtp.gmail.com'
-sender = 'harshtewari12@gmail.com'
-destination = ['harshtewari21@gmail.com']
+sender = 'add_mail'
+destination = ['add_receiver']
 
-USERNAME = "harshtewari12@gmail.com"
-PASSWORD = "witd ucwf dqkn zkek"
+USERNAME = "add_mail"
+PASSWORD = "add_pass"
 # Define the pins
 buzzer_pin = 2  # Port for buzzer
 led = 3         # Port for LED
